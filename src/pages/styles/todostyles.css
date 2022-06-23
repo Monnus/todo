@@ -1,0 +1,50 @@
+.inputTodo{
+width:400px;
+height: 50px;
+background: blue;
+color:red;
+padding-left:30px;
+border-radius: 50px;
+outline:none;
+}
+
+.container{
+    color:white;
+  
+}
+/* .row{
+    background: ;
+} */
+
+.card-body{
+    height:300px;
+}
+
+.btn-danger{
+    height:50px;
+    width:60px;
+    background: red;
+    cursor: pointer;
+}
+
+.btn-danger::before{
+    content:"❌";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-success{
+    height:50px;
+    width:60px;
+    background: blue;
+ 
+
+    cursor: pointer;
+}
+
+.btn-success::before{
+    content:"✔";
+    color:green;
+    font-weight: 600;
+    font-size: 20px;
+}

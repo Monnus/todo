@@ -1,0 +1,31 @@
+
+
+.signincontainer{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    align-items:center;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    top:10em;
+    left:20em;
+    height:500px;
+width:500px;
+background: brown;
+padding: 0 0 0 15px;
+}
+.signincontainer, label,input{
+    display: block;
+}
+input[name=email]{
+    width:300px;;
+    margin: 0 0 20px 0;
+    height:30px;
+}
+input[name=password]{
+    width:300px;
+    height:30px;
+
+    margin: 0 0 20px 0;
+}
